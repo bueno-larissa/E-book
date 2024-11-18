@@ -1,0 +1,149 @@
+<!DOCTYPE html >
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <title>Wizard of Oz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
+
+    <style>
+        
+        .bilbo-swash-caps-regular {
+          font-family: "Bilbo Swash Caps", cursive;
+          font-weight: 400;
+          font-style: normal;
+        }
+         
+        nav{
+            padding: 10px;
+            text-align: center;
+
+            
+        }
+        
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+        
+        li{
+            margin: 15px;
+            
+        }
+        
+        a{
+            color: darkred;
+            font-family: Bilbo Swash Caps;
+            font-size: 1.8rem;
+            display: inline-block;
+            transition: background-color o.3s;
+            
+
+        }
+        
+        a:hover{
+            background-color: coral;
+            border-radius: 5px;
+        }
+    
+        body{
+            background-color: beige;
+            height: 100vh;
+            flex-direction: column;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        h1{
+            font-family: Bilbo Swash Caps;
+            font-size: 5rem;
+            text-align: center; 
+        }
+        
+        h2{
+            font-family: Bilbo Swash Caps;
+            font-size: 3rem;
+            text-align: center; 
+        }
+        
+        .book-page{
+            background-image: url(Old%20paper.jpg);
+            width: 80%; 
+            max-width: 1080px; 
+            height: 700px;
+            margin: 20px auto;
+            border-radius: 5px;
+            padding: 30px;
+            background-size: cover;
+            overflow-y: auto;
+     
+        }
+        
+        
+        p{
+            text-align: left;;
+        }
+        
+        .next-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.25rem;
+            background-color: coral;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block; 
+            margin-left: auto;  
+            margin-right: auto;
+            text-align: center
+}
+        
+        .next-button:hover {
+  background-color: darkorange;
+}
+        
+        .book-image {
+  display: block;        
+  margin-left: auto;     
+  margin-right: auto;    
+  margin-bottom: 20px;   
+  border-radius: 10px;   
+}
+    </style>
+    
+</head>
+    
+<body>
+    
+    <h1>The Wizard of Oz </h1>
+    
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="the-cyclone.html">Chapter 1</a></li>
+        <li><a href="#">Chapter 2</a></li>
+        <li><a href="#">Chapter 3</a></li>
+       
+        
+        </ul>
+    
+    </nav>
+    
+    <div class="book-page">
+        <div class="book-content">
+        <h2> Dive in to the magic world of Oz </h2>
+        <img src="cover1.jpg" alt="Wizard of Oz" class="book-image">
+        
+        </div>
+     <button class="next-button" onclick="window.location.href='the-cyclone.html';">Start Reading</button>
+        
+        </div>
+</body>
+</html>
+    
